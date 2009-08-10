@@ -236,7 +236,7 @@ to the ``slices`` directory in your application.
 Then you need to move/copy them to your ``app/views`` directory
 and edit the copied views.
 
-    $ cp $ROOT/slices/merb-auth-slice-password/app/views/exceptions/* \
+    $ cp $ROOT/slices/merb-auth-slice-password/app/views/exceptions/unauthorized.html.erb \
       $ROOT/app/views/exceptions/
 {:lang=shell html_use_syntax=true}
 
