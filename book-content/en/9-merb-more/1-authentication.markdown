@@ -234,7 +234,11 @@ What that will do is copy the views from the slice
 to the ``slices`` directory in your application.
 
 Then you need to move/copy them to your ``app/views`` directory
-and edit the copied views. (???)
+and edit the copied views.
+
+    $ cp $ROOT/slices/merb-auth-slice-password/app/views/exceptions/* \
+      $ROOT/app/views/exceptions/
+{:lang=shell html_use_syntax=true}
 
 
 [^merb-stack-app]: merb-gen app hello\_world
